@@ -8,7 +8,7 @@ Project 4 of 9 in the [Healthcare Agentic AI portfolio](https://github.com/gbhor
 
 ## Disclaimer
 
-This project uses entirely synthetic, fictitious FHIR data generated for demonstration purposes only. No real patient data, protected health information, or actual clinical records are used at any stage. All patient names, clinical values, diagnoses, and medications are fabricated. This project is not intended for clinical use.
+This project uses entirely synthetic, fictitious FHIR data generated for demonstration purposes only. No real patient data, protected health information, or actual clinical records are used at any stage. All patient names, clinical values, diagnoses, and medications are for demonstration purposes only. This project is not intended for clinical use.
 
 ---
 
