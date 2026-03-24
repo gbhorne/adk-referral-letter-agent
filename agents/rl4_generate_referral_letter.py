@@ -28,11 +28,15 @@ def generate_referral_letter(
     Sections: reason for referral, relevant history, investigations,
     current medications, clinical question, urgency statement.
     """
-    model = GenerativeModel("gemini-2.5-flash")
+    model = GenerativeModel("gemini-2.0-flash-001")
 
     performer_line = ""
     if context.performer and context.performer.name:
-        performer_line = f"Dear Dr. {context.performer.name},"
+        name = context.performer.name.strip()
+        if name.lower().startswith("dr.") or name.lower().startswith("dr "):
+            performer_line = f"Dear {name},"
+        else:
+            performer_line = f"Dear Dr. {name},"
     elif context.performer and context.performer.specialty:
         performer_line = f"Dear {context.performer.specialty} Specialist,"
     else:
