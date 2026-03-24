@@ -12,3 +12,5 @@ build/
 .mypy_cache/
 service-account-key.json
 *.json.key
+
+agents/.adk/
