@@ -2,8 +2,6 @@
 
 LOINC 57133-1 compliant specialist referral letters with urgency classification (ROUTINE / URGENT / EMERGENT) -- Google ADK + Gemini 2.5 Flash on GCP.
 
-Project 4 of 9 in the [Healthcare Agentic AI portfolio](https://github.com/gbhorne).
-
 ---
 
 ## Disclaimer
