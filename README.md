@@ -19,7 +19,7 @@ The Referral Letter Agent generates structured specialist referral letters from 
 
 ## Architecture
 
-![ADK Referral Letter Agent -- pipeline architecture](docs/architecture.svg)
+![ADK Referral Letter Agent -- pipeline architecture](docs/architecture_referral.svg)
 
 ## Agent Pipeline
 
