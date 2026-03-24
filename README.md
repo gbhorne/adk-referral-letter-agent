@@ -62,6 +62,14 @@ The Referral Letter Agent generates structured specialist referral letters from 
 
 ---
 
+## ADK Web UI -- live trace
+
+![ADK Web UI showing pipeline trace](docs/adk_web_ui.png)
+
+The ADK trace shows the full pipeline execution: #1 user prompt with ServiceRequest ID, #2 `run_referral_pipeline` tool invoked (lightning bolt), #3 tool completed (checkmark), #4 agent response reporting the DocumentReference ID, EMERGENT urgency classification, and on-call Communication resource creation.
+
+---
+
 ## Architecture
 
 ![ADK Referral Letter Agent -- pipeline architecture](docs/architecture_referral.svg)
